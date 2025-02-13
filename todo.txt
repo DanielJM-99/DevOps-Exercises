@@ -1,0 +1,11 @@
+1) Create a VPC with CIDR block 10.0.0.0/16, 
+create a public subnet with CIDR block 10.0.1.0/24 within the same VPC, 
+Launch an EC2 instance in that public subnet which allows SSH access from anywhere
+
+2) Create a S3 bucket and print the Bucket domain name
+
+3) Fetch the Private IP of the instance created, fetch the ID of the security group
+
+Try to use:
+• module's output in another module
+• variables
